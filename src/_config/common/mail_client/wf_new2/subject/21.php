@@ -1,0 +1,1 @@
+【<?= $cd_wf_type; ?> <?= $nm_status; ?>】<?= $no_cyu; ?>_<?= $no_page; ?> <?= $nm_syohin; ?>／<?= $nm_setti; ?>

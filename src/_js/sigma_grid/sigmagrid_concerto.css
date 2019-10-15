@@ -1,0 +1,148 @@
+/***************************************************************************************************
+*	Concerto Sigmagrid CSS
+***************************************************************************************************/
+@charset "UTF-8";
+
+/*行追加*/
+.gt-row-new {
+	background-color:#99ffff;
+}
+
+/*customHeadでfreeze行が1行ずれる不具合対策*/
+.gt-freeze-div .gt-head-table tbody .gt-hd-hidden {
+	display:none;
+}
+
+
+/*ボタン override*/
+
+.gt-first-page {
+	background : url(/_js/sigma_grid/concerto/page_first.png) no-repeat center center;
+}
+
+.gt-prev-page {
+	background : url(/_js/sigma_grid/concerto/page_prev.png) no-repeat center center;
+}
+
+.gt-next-page {
+	background : url(/_js/sigma_grid/concerto/page_next.png) no-repeat center center;
+}
+
+.gt-last-page {
+	background : url(/_js/sigma_grid/concerto/page_last.png) no-repeat center center;
+}
+
+.gt-goto-page {
+	background : url(/_js/sigma_grid/concerto/page_goto.png) no-repeat center center;
+}
+
+.gt-tool-add {
+	background : url(/_js/sigma_grid/concerto/tool_add.png) no-repeat center center;
+}
+
+.gt-tool-del {
+	background : url(/_js/sigma_grid/concerto/tool_del.png) no-repeat center center;
+}
+
+.gt-tool-save {
+	background : url(/_js/sigma_grid/concerto/tool_save.png) no-repeat center center;
+}
+
+.gt-tool-reload {
+	background : url(/_js/sigma_grid/concerto/tool_reload.png) no-repeat center center;
+}
+
+td.gt-cell-updated {
+	background-image : url(/_js/sigma_grid/concerto/cell_updated.png) 
+}
+
+.gt-hd-icon {
+	width:22px;
+	height:4px;
+	background-image: url(/_js/sigma_grid/grid/skin/default/images/s_sort_asc_desc.gif);
+}
+
+.gt-hd-asc {
+	width:11px;
+	overflow:hidden;
+}
+
+/*ボタン skin*/
+.sigmagrid-button-skin {
+	background:url(/_js/sigma_grid/grid/skin/default/images/menu_icon_themes.gif) no-repeat center center;
+}
+
+/*ボタン copy*/
+.sigmagrid-button-copy {
+	background:url(/_js/sigma_grid/concerto/copy.png) no-repeat center center;
+}
+
+/*ボタン paste*/
+.sigmagrid-button-paste {
+	background:url(/_js/sigma_grid/concerto/paste.png) no-repeat center center;
+}
+
+/*ボタン cellCopy*/
+.sigmagrid-button-cellCopy {
+	background:url(/_js/sigma_grid/concerto/cellCopy.png) no-repeat center center;
+}
+
+/*ボタン cellPaste*/
+.sigmagrid-button-cellPaste {
+	background:url(/_js/sigma_grid/concerto/cellPaste.png) no-repeat center center;
+}
+
+/*ボタン save*/
+.sigmagrid-button-confSave {
+	background:url(/_js/sigma_grid/concerto/save.png) no-repeat center center;
+}
+
+/*ボタン delete*/
+.sigmagrid-button-confDel {
+	background:url(/_js/sigma_grid/concerto/delete.png) no-repeat center center;
+}
+
+/*ボタン download*/
+.sigmagrid-button-download {
+	background:url(/_js/sigma_grid/concerto/download.png) no-repeat center center;
+}
+
+/*ボタン upload*/
+.sigmagrid-button-upload {
+	background:url(/_js/sigma_grid/concerto/upload.png) no-repeat center center;
+}
+
+/*ボタン help*/
+.sigmagrid-button-help {
+	background:url(/_js/sigma_grid/concerto/help.png) no-repeat center center;
+}
+
+/*ボタン rowHeight*/
+.sigmagrid-button-rowHeight {
+	background:url(/_js/sigma_grid/concerto/rowHeight.png) no-repeat center center;
+}
+
+/*ボタン sort*/
+.sigmagrid-button-sort {
+	background:url(/_js/sigma_grid/concerto/sort.png) no-repeat center center;
+}
+
+/*ボタン check*/
+.sigmagrid-button-check {
+	background:url(/_js/sigma_grid/concerto/check.png) no-repeat center center;
+}
+
+/*ボタン bookmark*/
+.sigmagrid-button-filterbooks {
+	background:url(/_js/sigma_grid/concerto/filterbooks.png) no-repeat center center;
+}
+
+/*ボタン agg*/
+.sigmagrid-button-agg {
+	background:url(/_js/sigma_grid/concerto/agg.png) no-repeat center center;
+}
+
+/*ボタン fill*/
+.sigmagrid-button-fill {
+	background:url(/_js/sigma_grid/concerto/fill.png) no-repeat center center;
+}
